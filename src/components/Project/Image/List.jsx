@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import "./Image.scss"
+import "./List.scss"
 
-class Image extends Component {
+class List extends Component {
   render() {
     return (
       <img src={this.props.link} alt=''/>
@@ -9,4 +9,4 @@ class Image extends Component {
   }
 }
 
-export default Image
+export default List

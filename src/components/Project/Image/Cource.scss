@@ -1,20 +1,20 @@
-.layout {
+.gallery-layout {
     width: 100%;
     min-height: 100vh;
-    background-color: #c5baba;
   
     .search-section {
-       height: 15vh;
+       height: 5vh;
        display: flex;
        align-items: center;
        justify-content: center;
-       background-color: rgb(33, 235, 235);
     }
     input {
         width: 20rem;
         height: 2rem;
+        margin-top: 2rem ;
         border: none;
         padding: 0 0.8rem;
+        background-color: #e6e2e2;
     }
     input:focus {
         outline: none;
@@ -22,6 +22,7 @@
     button {
         width: 10rem;
         height: 2rem;
+        margin-top: 2rem ;
         border: none;
         color: #fff;
         background-color: rgb(59, 38, 245);
@@ -31,6 +32,7 @@
         background-color: rgb(25, 0, 255);
     }
     .photos {
+        margin-top: 2rem;
         max-width: 100%;
         display: grid;
         grid-template-columns: repeat(3 , 1fr);

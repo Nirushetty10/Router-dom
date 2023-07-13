@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Image from "../Image/Image";
 import "./Cource.scss";
+import List from "./List";
 
 export default class Cource extends Component {
   constructor(props) {
@@ -43,10 +43,10 @@ export default class Cource extends Component {
 
   render() {
     let result = this.state.images.map((image) => {
-      return <Image key={image.id} link={image.url} />;
+      return <List key={image.id} link={image.url} />;
     });
     return (
-      <div className="layout">
+      <div className="gallery-layout">
         <div className="search-section">
           <input
             type="text"

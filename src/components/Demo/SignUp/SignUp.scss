@@ -1,0 +1,16 @@
+.form {
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+
+    input {
+        width: 50%;
+        margin: 1rem 0;
+    }
+    button {
+        width: 50%;
+        height: 2rem;
+        margin: 1rem 0;
+    }
+}
